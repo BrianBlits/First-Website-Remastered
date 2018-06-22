@@ -1,0 +1,259 @@
+/***** BASE STYLES *****/
+body {
+font-family: 'Source Sans Pro', sans-serif;
+color: #2b2b2b;
+}
+
+#about, #work, #contact #portfolio {
+    height: 600px;
+}
+
+ /* #about {
+    height: 600px;
+}
+ 
+#work {
+    height: 600px;
+}
+ 
+#contact {
+    height: 600px;
+} */
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+header h1 { 
+    font-family: 'lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding: 50px 0;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'lora', serif; 
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px; /* 42px */
+}
+ 
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px; /* 42px */
+    padding-right: 50px;
+}
+
+/****** WORK ******/
+
+#work .full-width {
+    padding: 115px 0;
+}
+ 
+#work img {
+    padding-bottom: 30px;
+    /* orignal padding-left: 135px; */
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height:32px;
+    margin: 0 auto;
+    width: 190px; /* orignal: padding-left: 75px; */
+}
+ 
+#work p {
+    font-family: 'Lora', serif; /* orignal: 'lora; */
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+ #work {
+    background-color: #f9ceb7;
+    text-align: center;
+ }
+
+/****** PORTFOLIO ******/
+
+#portfolio .full-width {
+     padding: 115px 0;
+}
+
+#portfolio .half-width {
+    padding: 33.33%;
+}
+
+#portfolio img {
+    padding-bottom: 30px;
+    padding-right: 30px;
+    flex-wrap: auto;
+}
+
+.holstee-manifesto-2 img {
+    margin-left: 25px;
+    border: 12px;
+    width: 400px;
+    height: 300px;
+    float: center;
+}
+
+.rogue-pickings img {
+    margin-left: 25px;
+    border: 12px;
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+.personal-website img {
+    margin-left: 25px;
+    border: 12px;
+    width: 400px;
+    height: 300px;
+    float: right;
+}
+
+#portfolio h3 {
+    font-size: 24px;
+    line-height:32px;
+    margin: 0 auto;
+    width: 190px; /* orignal: padding-left: 75px; */
+}
+
+#portfolio p {
+    font-family: 'Lora', serif; /* orignal: 'lora; */
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 40px;
+}
+
+#portfolio {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding-bottom: 580px;
+    padding-top: -20px;
+ }
+
+ /****** CONTACT ******/
+
+footer {
+    background-color: #e6e6e6;
+    height: 380px;
+    padding-top: 20px;
+    /* border-bottom: 2px  #999999 solid; */
+}
+
+
+}
+#contact .full-width {
+    padding: 110px 55px;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 0px;
+}
+#contact #envelope {
+    padding: 50px 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+} 
