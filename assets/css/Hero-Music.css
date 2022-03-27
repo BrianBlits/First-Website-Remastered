@@ -1,21 +1,21 @@
 div.jumbotron.hero-music {
-  color:#fff;
-  /*text-align:center;*/
-  background:url('../../assets/img/hero.png');
-  background-size:cover;
-  /*background-position:center;*/
-  padding-top:0;
-  padding-bottom:0;
+  color: #fff;
+  /*text-align: center;*/
+  background: url('../../assets/img/hero.png');
+  background-size: cover;
+  /*background-position: center;*/
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
-  text-shadow:0 3px 3px rgba(0,0,0,0.4);
-  color:#fff;
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
 }
 
 p.hero-subtitle {
-  max-width:800px;
-  margin:25px auto;
-  color:#fff;
+  max-width: 800px;
+  margin: 25px auto;
+  color: #fff;
 }
 
